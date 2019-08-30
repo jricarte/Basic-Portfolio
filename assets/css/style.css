@@ -1,7 +1,8 @@
 * {
     width: 960px;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    color: 777777
 }
 h1 {
     background: #4aaaa5;
@@ -17,18 +18,26 @@ h1 {
 nav {
     float: right;
     width: 25%;
-    padding: 25px
+    padding: 25px;
+    margin-top: 15px
 }
 
-h2{
+h2 {
     float: left;
-    color: #4aaaa5
+    color: #4aaaa5;
+    margin: 20px
+}
+
+hr {
+    margin: 20px
 }
 
 .body {
-    background: gray;
-    border: 25px;
-    padding: 25px;
+    background-color: gray;
+    width: 960px;
+    padding: 50px;
+    margin: 20px;
+
     
 }
 
@@ -73,9 +82,20 @@ img {
       
 .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 25%
+    
+}
+
+.footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   text-align: center;
+   padding: 25px;
+   border: #4aaaa5
+}
