@@ -15,8 +15,21 @@ h1 {
     float: left
 }
 
-nav {
-    float: right;
+#About {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    margin-top: 15px
+}
+
+#Contact {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    margin-top: 15px
+}
+#Portfolio {
+    float: left;
     width: 25%;
     padding: 25px;
     margin-top: 15px
